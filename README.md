@@ -1,14 +1,12 @@
-# Drug Side Effects & Medical Condition Analysis
+Drug Side Effects & Medical Condition Analysis
 
-## 📌 Project Overview
+Project Overview
 
 This project analyzes drug-related data to identify patterns in **medical conditions, drug classes, side effects, drug ratings, reviews, prescription status, pregnancy categories, and alcohol interactions**.
 
 The project combines **Python-based Exploratory Data Analysis (EDA)** with an interactive **Power BI dashboard** to transform raw healthcare data into meaningful insights and visualizations.
 
----
-
-## 🎯 Objectives
+Objectives
 
 - Analyze the distribution of drugs across different medical conditions.
 - Identify the most frequently reported side effects.
@@ -19,13 +17,12 @@ The project combines **Python-based Exploratory Data Analysis (EDA)** with an in
 - Analyze drug information based on pregnancy category and other drug characteristics.
 - Build an interactive Power BI dashboard for healthcare data visualization.
 
----
 
-## 📊 Dataset
+Dataset
 
 The dataset contains information related to drugs, their medical conditions, side effects, drug classes, ratings, reviews, prescription status, pregnancy category, alcohol interaction, and other attributes.
 
-### Dataset Summary
+Dataset Summary
 
 - **2,931 drug records**
 - **2,912 unique drug names**
@@ -37,34 +34,18 @@ The dataset contains information related to drugs, their medical conditions, sid
 - Pregnancy category
 - Alcohol interaction information
 
----
+**Key Insights**
 
-## 🛠️ Tools & Technologies
+- Analyzed approximately **3K drugs,  28K reported side effects, and 275 drug classes**, providing a broad view of adverse-effect patterns across medications.
+- **Hives (1,511 reports)** and **difficulty in breathing (1,130 reports)** were the most frequently reported side effects, considerably higher than the other commonly reported adverse effects.
+- The analysis of rare side effects showed that several side effects were reported across **multiple drug classes**, with the most frequent cross-class rare effects appearing in **6 drug classes (9.84%)**, highlighting overlapping safety profiles among different medication categories.
+- **Prescription (Rx) drugs represented the largest category (4,328; 48%)**,.
+- **Drug ratings showed a positive association with the number of reviews**, with highly reviewed drugs generally appearing at higher rating levels, although the relationship was not perfectly linear.
+- **Alcohol interaction varied across the top 10 drug classes**, with the **Upper Respiratory drug class showing the highest number of drugs associated with alcohol interaction**, while other classes such as topical steroids, topical acne medications, and miscellaneous drug classes showed comparatively lower interaction counts.
 
-### Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
 
-### Power BI
-- Power Query
-- Data transformation
-- Interactive visualizations
-- Slicers
-- KPI cards
-- Charts and dashboards
+**Project Workflow**
 
-### Other Tools
-- Jupyter Notebook / Google Colab
-- GitHub
-
----
-
-## 🔄 Project Workflow
-
-```text
 Raw Dataset
      ↓
 Data Understanding
@@ -82,3 +63,37 @@ Statistical / Correlation Analysis
 Power BI Visualization
      ↓
 Interactive Healthcare Dashboard
+
+Tools used
+
+Python(Google colab)
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+Power BI
+- Power Query
+- Data transformation
+- Interactive visualizations
+- Slicers
+- KPI cards
+- Charts and dashboards
+
+  Tools used
+
+Python(Google colab)
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+Power BI
+- Power Query
+- Data transformation
+- Interactive visualizations
+- Slicers
+- KPI cards
+- Charts and dashboards
